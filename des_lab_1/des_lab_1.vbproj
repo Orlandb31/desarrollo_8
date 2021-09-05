@@ -102,6 +102,13 @@
     <Compile Include="ProblemaNo2.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="ProblemaNo3.Designer.vb">
+      <DependentUpon>ProblemaNo3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ProblemaNo3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Socio.vb" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="My Project\Resources.resx">
@@ -112,6 +119,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ProblemaNo2.resx">
       <DependentUpon>ProblemaNo2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProblemaNo3.resx">
+      <DependentUpon>ProblemaNo3.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

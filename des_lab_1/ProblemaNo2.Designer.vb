@@ -88,20 +88,20 @@ Partial Class ProblemaNo2
         'txtJuan
         '
         Me.txtJuan.Font = New System.Drawing.Font("Arial", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtJuan.Location = New System.Drawing.Point(107, 368)
+        Me.txtJuan.Location = New System.Drawing.Point(99, 368)
         Me.txtJuan.Name = "txtJuan"
         Me.txtJuan.ReadOnly = True
-        Me.txtJuan.Size = New System.Drawing.Size(34, 29)
+        Me.txtJuan.Size = New System.Drawing.Size(42, 29)
         Me.txtJuan.TabIndex = 5
         Me.txtJuan.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'txtAlberto
         '
         Me.txtAlberto.Font = New System.Drawing.Font("Arial", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtAlberto.Location = New System.Drawing.Point(293, 368)
+        Me.txtAlberto.Location = New System.Drawing.Point(286, 368)
         Me.txtAlberto.Name = "txtAlberto"
         Me.txtAlberto.ReadOnly = True
-        Me.txtAlberto.Size = New System.Drawing.Size(34, 29)
+        Me.txtAlberto.Size = New System.Drawing.Size(48, 29)
         Me.txtAlberto.TabIndex = 7
         Me.txtAlberto.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
@@ -109,7 +109,7 @@ Partial Class ProblemaNo2
         '
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Arial Narrow", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(289, 345)
+        Me.Label5.Location = New System.Drawing.Point(282, 345)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(52, 20)
         Me.Label5.TabIndex = 6
@@ -121,7 +121,7 @@ Partial Class ProblemaNo2
         Me.txtAna.Location = New System.Drawing.Point(465, 368)
         Me.txtAna.Name = "txtAna"
         Me.txtAna.ReadOnly = True
-        Me.txtAna.Size = New System.Drawing.Size(34, 29)
+        Me.txtAna.Size = New System.Drawing.Size(49, 29)
         Me.txtAna.TabIndex = 9
         Me.txtAna.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
@@ -141,7 +141,7 @@ Partial Class ProblemaNo2
         Me.txtMdeGisela.Location = New System.Drawing.Point(636, 368)
         Me.txtMdeGisela.Name = "txtMdeGisela"
         Me.txtMdeGisela.ReadOnly = True
-        Me.txtMdeGisela.Size = New System.Drawing.Size(34, 29)
+        Me.txtMdeGisela.Size = New System.Drawing.Size(51, 29)
         Me.txtMdeGisela.TabIndex = 11
         Me.txtMdeGisela.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
