@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class ProblemaNo1
+Partial Class Form1
     Inherits System.Windows.Forms.Form
 
     'Form reemplaza a Dispose para limpiar la lista de componentes.
@@ -22,30 +22,9 @@ Partial Class ProblemaNo1
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.btnmayor = New System.Windows.Forms.Button()
-        Me.SuspendLayout()
-        '
-        'btnmayor
-        '
-        Me.btnmayor.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnmayor.Location = New System.Drawing.Point(562, 280)
-        Me.btnmayor.Name = "btnmayor"
-        Me.btnmayor.Size = New System.Drawing.Size(143, 49)
-        Me.btnmayor.TabIndex = 0
-        Me.btnmayor.Text = "Problema 5"
-        Me.btnmayor.UseVisualStyleBackColor = True
-        '
-        'Form1
-        '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        components = New System.ComponentModel.Container
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(774, 450)
-        Me.Controls.Add(Me.btnmayor)
-        Me.Name = "Form1"
+        Me.ClientSize = New System.Drawing.Size(800, 450)
         Me.Text = "Form1"
-        Me.ResumeLayout(False)
-
     End Sub
-
-    Friend WithEvents btnmayor As Button
 End Class
