@@ -78,6 +78,7 @@
       <DependentUpon>ProblemaNo1.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="logica.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -94,32 +95,26 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <Compile Include="ProblemaNo2.Designer.vb">
-      <DependentUpon>ProblemaNo2.vb</DependentUpon>
+
+    <Compile Include="programa5.Designer.vb">
+      <DependentUpon>programa5.vb</DependentUpon>
     </Compile>
-    <Compile Include="ProblemaNo2.vb">
+    <Compile Include="programa5.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ProblemaNo3.Designer.vb">
-      <DependentUpon>ProblemaNo3.vb</DependentUpon>
-    </Compile>
-    <Compile Include="ProblemaNo3.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Socio.vb" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="ProblemaNo2.resx">
-      <DependentUpon>ProblemaNo2.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ProblemaNo3.resx">
-      <DependentUpon>ProblemaNo3.vb</DependentUpon>
+    <EmbeddedResource Include="programa5.resx">
+      <DependentUpon>programa5.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
