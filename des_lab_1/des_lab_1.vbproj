@@ -73,12 +73,14 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ProblemaNo1.vb" />
-    <Compile Include="ProblemaNo1.Designer.vb">
-      <DependentUpon>ProblemaNo1.vb</DependentUpon>
+    <Compile Include="Menu_Principal.Designer.vb">
+      <DependentUpon>Menu_Principal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Menu_Principal.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="logica.vb" />
+    <Compile Include="Module1.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -95,17 +97,41 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-
-    <Compile Include="programa5.Designer.vb">
-      <DependentUpon>programa5.vb</DependentUpon>
+    <Compile Include="ProblemaNo1.Designer.vb">
+      <DependentUpon>ProblemaNo1.vb</DependentUpon>
     </Compile>
-    <Compile Include="programa5.vb">
+    <Compile Include="ProblemaNo1.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="ProblemaNo2.Designer.vb">
+      <DependentUpon>ProblemaNo2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ProblemaNo2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProblemaNo3.Designer.vb">
+      <DependentUpon>ProblemaNo3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ProblemaNo3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProblemaNo4.Designer.vb">
+      <DependentUpon>ProblemaNo4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ProblemaNo4.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProblemaNo5.Designer.vb">
+      <DependentUpon>ProblemaNo5.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ProblemaNo5.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Socio.vb" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.vb</DependentUpon>
+    <EmbeddedResource Include="Menu_Principal.resx">
+      <DependentUpon>Menu_Principal.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
@@ -113,8 +139,17 @@
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="programa5.resx">
-      <DependentUpon>programa5.vb</DependentUpon>
+    <EmbeddedResource Include="ProblemaNo2.resx">
+      <DependentUpon>ProblemaNo2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProblemaNo3.resx">
+      <DependentUpon>ProblemaNo3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProblemaNo4.resx">
+      <DependentUpon>ProblemaNo4.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProblemaNo5.resx">
+      <DependentUpon>ProblemaNo5.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
