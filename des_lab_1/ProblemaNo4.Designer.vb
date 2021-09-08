@@ -35,7 +35,7 @@ Partial Class ProblemaNo4
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(310, 337)
+        Me.Label4.Location = New System.Drawing.Point(128, 253)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(92, 13)
         Me.Label4.TabIndex = 16
@@ -43,7 +43,7 @@ Partial Class ProblemaNo4
         '
         'tbTotal
         '
-        Me.tbTotal.Location = New System.Drawing.Point(478, 331)
+        Me.tbTotal.Location = New System.Drawing.Point(296, 247)
         Me.tbTotal.Name = "tbTotal"
         Me.tbTotal.ReadOnly = True
         Me.tbTotal.Size = New System.Drawing.Size(100, 20)
@@ -52,7 +52,7 @@ Partial Class ProblemaNo4
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(222, 286)
+        Me.Label3.Location = New System.Drawing.Point(40, 202)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(250, 13)
         Me.Label3.TabIndex = 14
@@ -61,7 +61,7 @@ Partial Class ProblemaNo4
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(223, 253)
+        Me.Label2.Location = New System.Drawing.Point(41, 169)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(249, 13)
         Me.Label2.TabIndex = 13
@@ -69,7 +69,7 @@ Partial Class ProblemaNo4
         '
         'tbMen
         '
-        Me.tbMen.Location = New System.Drawing.Point(478, 279)
+        Me.tbMen.Location = New System.Drawing.Point(296, 195)
         Me.tbMen.Name = "tbMen"
         Me.tbMen.ReadOnly = True
         Me.tbMen.Size = New System.Drawing.Size(100, 20)
@@ -77,7 +77,7 @@ Partial Class ProblemaNo4
         '
         'tbMayor
         '
-        Me.tbMayor.Location = New System.Drawing.Point(478, 246)
+        Me.tbMayor.Location = New System.Drawing.Point(296, 162)
         Me.tbMayor.Name = "tbMayor"
         Me.tbMayor.ReadOnly = True
         Me.tbMayor.Size = New System.Drawing.Size(100, 20)
@@ -85,7 +85,7 @@ Partial Class ProblemaNo4
         '
         'btnEjucutar
         '
-        Me.btnEjucutar.Location = New System.Drawing.Point(385, 189)
+        Me.btnEjucutar.Location = New System.Drawing.Point(178, 83)
         Me.btnEjucutar.Name = "btnEjucutar"
         Me.btnEjucutar.Size = New System.Drawing.Size(75, 23)
         Me.btnEjucutar.TabIndex = 10
@@ -96,7 +96,7 @@ Partial Class ProblemaNo4
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Lucida Bright", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(370, 100)
+        Me.Label1.Location = New System.Drawing.Point(151, 39)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(130, 18)
         Me.Label1.TabIndex = 9
@@ -106,7 +106,7 @@ Partial Class ProblemaNo4
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.ClientSize = New System.Drawing.Size(460, 409)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.tbTotal)
         Me.Controls.Add(Me.Label3)

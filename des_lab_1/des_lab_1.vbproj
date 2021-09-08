@@ -139,6 +139,9 @@
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="ProblemaNo1.resx">
+      <DependentUpon>ProblemaNo1.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ProblemaNo2.resx">
       <DependentUpon>ProblemaNo2.vb</DependentUpon>
     </EmbeddedResource>
